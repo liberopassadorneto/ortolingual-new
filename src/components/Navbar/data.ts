@@ -8,7 +8,7 @@ export const navBarData = [
     title: 'Calendario',
   },
   {
-    id: 'features',
+    id: 'testimonials',
     title: 'Testimonios',
   },
   {
