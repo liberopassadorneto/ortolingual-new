@@ -1,18 +1,18 @@
 export const navBarData = [
   {
     id: 'about',
-    title: 'About',
+    title: 'Objetivos',
   },
   {
     id: 'discover',
-    title: 'Discover',
+    title: 'Calendario',
   },
   {
     id: 'features',
-    title: 'Features',
+    title: 'Testimonios',
   },
   {
     id: 'signup',
-    title: 'Sign Up',
+    title: 'Entre em contacto',
   },
 ];

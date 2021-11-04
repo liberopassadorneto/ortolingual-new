@@ -1,12 +1,7 @@
-import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import {
   FooterContainer,
-  FooterLink,
-  FooterLinkHeading,
-  FooterLinkItems,
-  FooterLinksContainer,
-  FooterLinksWrapper,
   FooterWrapper,
   SocialIconLink,
   SocialIcons,
@@ -23,7 +18,7 @@ export function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <FooterLinksContainer>
+        {/* <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkHeading>About us</FooterLinkHeading>
@@ -60,25 +55,33 @@ export function Footer() {
               <FooterLink to='#'>Terms os Service</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
-        </FooterLinksContainer>
+        </FooterLinksContainer> */}
         <SocialMedia>
           <SocialMediaWrapper>
             <SocialLogo to='/' onClick={toggleHome}>
-              dolla
+              ortolingualprieto
             </SocialLogo>
             <WebsiteRights>
-              dolla © {new Date().getFullYear()} All rights reserved.
+              Marcos Prieto © {new Date().getFullYear()} All rights reserved.
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
-                <FaFacebook />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+              <SocialIconLink
+                href='https://www.instagram.com/ortolingualprieto/'
+                target='_blank'
+                aria-label='Instagram'
+              >
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='YouTube'>
-                <FaYoutube />
+              <SocialIconLink
+                href='https://www.facebook.com/prietoeprieto.ortodontiainvisivel.3'
+                target='_blank'
+                aria-label='Facebook'
+              >
+                <FaFacebook />
               </SocialIconLink>
+              {/* <SocialIconLink href='/' target='_blank' aria-label='YouTube'>
+                <FaYoutube />
+              </SocialIconLink> */}
             </SocialIcons>
           </SocialMediaWrapper>
         </SocialMedia>

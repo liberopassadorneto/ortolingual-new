@@ -20,6 +20,11 @@ import {
   SubtitleProps,
 } from './types';
 
+type SubtitleType = {
+  id: string;
+  content: string;
+};
+
 interface InfoSectionProps
   extends InfoContainerProps,
     InfoRowProps,
@@ -29,7 +34,7 @@ interface InfoSectionProps
   id: string;
   topLine: string;
   heading: string;
-  subtitle: string;
+  subtitles: SubtitleType[];
   btnLabel: string;
   img: string;
   alt: string;
@@ -43,7 +48,7 @@ export function InfoSection({
   lightText,
   topLine,
   heading,
-  subtitle,
+  subtitles,
   btnLabel,
   img,
   alt,
@@ -59,7 +64,13 @@ export function InfoSection({
             <TextWrapper>
               <TopLine>{topLine}</TopLine>
               <Heading lightText={lightText}>{heading}</Heading>
-              <Subtitle lightText={lightText}>{subtitle}</Subtitle>
+              {subtitles.map((item) => {
+                return (
+                  <Subtitle key={item.id} lightText={lightText}>
+                    {item.content}
+                  </Subtitle>
+                );
+              })}
               <BtnWrapper>
                 <a href={url} target='_blank'>
                   <BtnCta primary={primary} dark={dark}>

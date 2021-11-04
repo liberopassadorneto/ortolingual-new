@@ -1,8 +1,7 @@
 import { useState } from 'react';
+import { Link as LinkS } from 'react-scroll';
 import { BtnCta } from '../Button';
 import {
-  ArrowForward,
-  ArrowRight,
   HeroBg,
   HeroBtnWrapper,
   HeroContainer,
@@ -26,14 +25,21 @@ export function HeroSection() {
         <VideoBg playsInline autoPlay loop muted src={videoBg} />
       </HeroBg>
       <HeroContent>
-        <HeroHeading>Virtual Banking Made Easy</HeroHeading>
-        <HeroSubtitle>
-          Sign up for a new account today and receive $250 in credit.
-        </HeroSubtitle>
+        <HeroHeading>Ortodoncia Lingual en Ecuador</HeroHeading>
+        <HeroSubtitle>Dr. Prof. Marcos Prieto</HeroSubtitle>
         <HeroBtnWrapper>
-          <BtnCta onMouseEnter={onHover} onMouseLeave={onHover}>
-            <>Get started {hover ? <ArrowForward /> : <ArrowRight />}</>
-          </BtnCta>
+          <LinkS
+            to='about'
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-80}
+          >
+            <BtnCta onMouseEnter={onHover} onMouseLeave={onHover}>
+              {/* Saber más {hover ? <ArrowForward /> : <ArrowRight />} */}
+              Saber más
+            </BtnCta>
+          </LinkS>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>

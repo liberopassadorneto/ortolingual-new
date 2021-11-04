@@ -69,7 +69,7 @@ export const FooterLink = styled(LinkR)`
 export const SocialMedia = styled.section`
   max-width: 1100px;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 0px;
 `;
 
 export const SocialMediaWrapper = styled.div`

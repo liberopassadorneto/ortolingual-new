@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Features } from '../components/Features';
 import { Footer } from '../components/Footer';
 import { HeroSection } from '../components/HeroSection';
 import { InfoSection } from '../components/InfoSection';
@@ -10,6 +9,7 @@ import {
 } from '../components/InfoSection/Data';
 import { Navbar } from '../components/Navbar';
 import { Sidebar } from '../components/Sidebar';
+import { Testimonials } from '../components/Testimonials';
 
 export function Home() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -25,7 +25,8 @@ export function Home() {
       <HeroSection />
       <InfoSection {...infoObjOne} />
       <InfoSection {...infoObjTwo} />
-      <Features />
+      {/* <Features /> */}
+      <Testimonials />
       <InfoSection {...infoObjThree} />
       <Footer />
     </>

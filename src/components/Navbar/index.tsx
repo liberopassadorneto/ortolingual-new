@@ -43,7 +43,7 @@ export function Navbar({ toggle }: NavbarProps) {
       <Nav scrollNav={scrollNav}>
         <NavBarContainer>
           <NavLogo to='/' onClick={toggleHome}>
-            dolla
+            ortolingualprieto
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
@@ -66,7 +66,12 @@ export function Navbar({ toggle }: NavbarProps) {
             })}
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/signin'>Sing In</NavBtnLink>
+            <NavBtnLink
+              href='https://landing.mailerlite.com/webforms/landing/d3y1n6'
+              target='_blank'
+            >
+              Suscríbete ahora
+            </NavBtnLink>
           </NavBtn>
         </NavBarContainer>
       </Nav>

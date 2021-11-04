@@ -32,7 +32,12 @@ export function Sidebar({ isOpen, toggle }: SidebarProps) {
           })}
         </SidebarMenu>
         <SidebarBtnWrapper>
-          <SidebarBtn to='/signin'> Sign In</SidebarBtn>
+          <SidebarBtn
+            href='https://landing.mailerlite.com/webforms/landing/d3y1n6'
+            target='_blank'
+          >
+            Suscríbete ahora
+          </SidebarBtn>
         </SidebarBtnWrapper>
       </SidebarWrapper>
     </SidebarContainer>

@@ -68,7 +68,7 @@ export const TopLine = styled.p`
 `;
 
 export const Heading = styled.h1<HeadingProps>`
-  margin-bottom: 24px;
+  margin-bottom: 35px;
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
@@ -82,8 +82,9 @@ export const Heading = styled.h1<HeadingProps>`
 export const Subtitle = styled.p<SubtitleProps>`
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
+  font-weight: 500;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 `;
 
