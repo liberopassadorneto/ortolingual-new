@@ -31,7 +31,7 @@ export function HeroSection() {
           <LinkS
             to='about'
             smooth={true}
-            duration={500}
+            duration={700}
             spy={true}
             offset={-80}
           >

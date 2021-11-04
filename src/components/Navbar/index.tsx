@@ -55,7 +55,7 @@ export function Navbar({ toggle }: NavbarProps) {
                   <NavLink
                     to={item.id}
                     smooth={true}
-                    duration={500}
+                    duration={700}
                     spy={true}
                     offset={-80}
                   >
