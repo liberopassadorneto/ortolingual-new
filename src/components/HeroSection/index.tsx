@@ -23,7 +23,7 @@ export function HeroSection() {
   return (
     <HeroContainer id='hero'>
       <HeroBg>
-        <VideoBg autoPlay loop muted src={videoBg} />
+        <VideoBg playsInline autoPlay loop muted src={videoBg} />
       </HeroBg>
       <HeroContent>
         <HeroHeading>Virtual Banking Made Easy</HeroHeading>

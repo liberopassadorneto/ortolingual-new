@@ -1,7 +1,11 @@
+import { ScrollToTop } from '../components/ScrollToTop';
+import { Signin } from '../components/Signin';
+
 export function SigninPage() {
   return (
     <>
-      <h1>signin page</h1>
+      <ScrollToTop />
+      <Signin />
     </>
   );
 }
