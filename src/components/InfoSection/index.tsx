@@ -72,11 +72,15 @@ export function InfoSection({
                 );
               })}
               <BtnWrapper>
-                <a href={url} target='_blank'>
-                  <BtnCta primary={primary} dark={dark}>
-                    {btnLabel}
-                  </BtnCta>
-                </a>
+                {url ? (
+                  <a href={url} target='_blank'>
+                    <BtnCta primary={primary} dark={dark}>
+                      {btnLabel}
+                    </BtnCta>
+                  </a>
+                ) : (
+                  ''
+                )}
               </BtnWrapper>
             </TextWrapper>
           </Column1>

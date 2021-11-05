@@ -25,7 +25,7 @@ export const infoObjOne = {
   alt: 'Rocket',
   dark: true,
   primary: true,
-  url: 'https://landing.mailerlite.com/webforms/landing/d3y1n6',
+  // url: 'https://landing.mailerlite.com/webforms/landing/d3y1n6',
 };
 
 export const infoObjTwo = {
@@ -50,7 +50,7 @@ export const infoObjTwo = {
   alt: 'Calendar',
   dark: false,
   primary: false,
-  url: 'https://landing.mailerlite.com/webforms/landing/d3y1n6',
+  // url: 'https://landing.mailerlite.com/webforms/landing/d3y1n6',
 };
 
 export const infoObjThree = {
