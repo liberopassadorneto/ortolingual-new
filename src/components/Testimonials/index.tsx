@@ -23,7 +23,7 @@ export function Testimonials() {
         <VideoWrapper>
           <Iframe
             src='https://www.youtube.com/embed/RkYPPjGtwGI?rel=0'
-            title='Dr Andrés'
+            title='Dr Andres'
             frameBorder='0'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
             allowFullScreen
@@ -42,6 +42,15 @@ export function Testimonials() {
           <Iframe
             src='https://www.youtube.com/embed/n3dux3IKTfg?rel=0'
             title='Dr Tommy'
+            frameBorder='0'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowFullScreen
+          />
+        </VideoWrapper>
+        <VideoWrapper>
+          <Iframe
+            src='https://www.youtube.com/embed/utrKIAqdmgQ?rel=0'
+            title='Dr Christian Patron'
             frameBorder='0'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
             allowFullScreen
