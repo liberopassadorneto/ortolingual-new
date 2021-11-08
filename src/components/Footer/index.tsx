@@ -62,7 +62,8 @@ export function Footer() {
               ortolingualprieto
             </SocialLogo>
             <WebsiteRights>
-              Marcos Prieto © {new Date().getFullYear()} All rights reserved.
+              Empire Orto Center · 86.909.710/0001-54
+              {/* {new Date().getFullYear()} */}
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
