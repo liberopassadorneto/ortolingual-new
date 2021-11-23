@@ -37,7 +37,7 @@ export const infoObjTwo = {
   subtitles: [
     {
       id: '01',
-      content: 'Nos dias 22, 23 y 24 de Enero 2021',
+      content: 'Nos dias 22, 23 y 24 de Enero 2022',
     },
     {
       id: '02',
