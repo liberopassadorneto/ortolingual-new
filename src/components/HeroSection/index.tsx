@@ -25,8 +25,8 @@ export function HeroSection() {
         <VideoBg playsInline autoPlay loop muted src={videoBg} />
       </HeroBg>
       <HeroContent>
-        <HeroHeading>Ortodoncia Lingual en Ecuador</HeroHeading>
-        <HeroSubtitle>Dr. Prof. Marcos Prieto</HeroSubtitle>
+        <HeroHeading>Curso presencial de Ortodoncia Lingual</HeroHeading>
+        <HeroSubtitle>Prof. Dr. Marcos Prieto</HeroSubtitle>
         <HeroBtnWrapper>
           <LinkS
             to='about'

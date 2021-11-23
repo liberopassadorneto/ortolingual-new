@@ -67,7 +67,7 @@ export function Navbar({ toggle }: NavbarProps) {
           </NavMenu>
           <NavBtn>
             <NavBtnLink
-              href='https://landing.mailerlite.com/webforms/landing/d3y1n6'
+              href='https://landing.mailerlite.com/webforms/landing/c1s7x7'
               target='_blank'
             >
               Suscríbete ahora

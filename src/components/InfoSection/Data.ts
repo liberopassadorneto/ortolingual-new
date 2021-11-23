@@ -2,21 +2,21 @@ export const infoObjOne = {
   id: 'about',
   lightBg: false,
   lightText: true,
-  topLine: 'Curso presencial en Ecuador',
+  topLine: 'Teórico · Laboratorio · clínico',
   heading: 'Objetivos del curso',
   subtitles: [
     {
       id: '01',
-      content: 'Comprender los Pasos del Montaje del Aparato Lingual',
+      content: 'Comprender los pasos del montaje del aparato lingual',
     },
     {
       id: '02',
-      content: 'Comprender los Principios Biomecánicos',
+      content: 'Comprender los principios biomecánicos',
     },
     {
       id: '03',
       content:
-        'Capacitar o Ortodoncista a aplicación Clínica de la Técnica Lingual',
+        'Capacitar o ortodoncista a aplicación clínica de la técnica lingual',
     },
   ],
   btnLabel: 'Suscríbete ahora',
@@ -25,23 +25,24 @@ export const infoObjOne = {
   alt: 'Rocket',
   dark: true,
   primary: true,
-  // url: 'https://landing.mailerlite.com/webforms/landing/d3y1n6',
+  // url: 'https://landing.mailerlite.com/webforms/landing/c1s7x7',
 };
 
 export const infoObjTwo = {
   id: 'discover',
   lightBg: true,
   lightText: false,
-  topLine: 'Quito · Guayaquil',
+  topLine: 'Campo Grande (MS) · Brasil',
   heading: 'Calendario',
   subtitles: [
     {
       id: '01',
-      content: 'Quito · 19, 20 y 21 de Noviembre',
+      content: 'Nos dias 22, 23 y 24 de Enero 2021',
     },
     {
       id: '02',
-      content: 'Guayaquil · 27 y 28 de Noviembre',
+      content:
+        'En la dirección Travessa Tabelião Nelson Pereira Seba, 08 - Chácara Cachoeira',
     },
   ],
   btnLabel: 'Suscríbete ahora',
@@ -50,7 +51,7 @@ export const infoObjTwo = {
   alt: 'Calendar',
   dark: false,
   primary: false,
-  // url: 'https://landing.mailerlite.com/webforms/landing/d3y1n6',
+  // url: 'https://landing.mailerlite.com/webforms/landing/c1s7x7',
 };
 
 export const infoObjThree = {
@@ -72,5 +73,5 @@ export const infoObjThree = {
   alt: 'Messages',
   dark: false,
   primary: false,
-  url: 'https://landing.mailerlite.com/webforms/landing/d3y1n6',
+  url: 'https://landing.mailerlite.com/webforms/landing/c1s7x7',
 };

@@ -33,7 +33,7 @@ export function Sidebar({ isOpen, toggle }: SidebarProps) {
         </SidebarMenu>
         <SidebarBtnWrapper>
           <SidebarBtn
-            href='https://landing.mailerlite.com/webforms/landing/d3y1n6'
+            href='https://landing.mailerlite.com/webforms/landing/c1s7x7'
             target='_blank'
           >
             Suscríbete ahora
