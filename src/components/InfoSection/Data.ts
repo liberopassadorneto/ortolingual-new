@@ -16,7 +16,7 @@ export const infoObjOne = {
     },
     {
       id: '03',
-      content: 'Permita que el ortodoncista use Alineadores in Office.',
+      content: 'Permita que el ortodoncista use Alineadores in Office',
     },
   ],
   btnLabel: 'Suscríbete ahora',
