@@ -56,6 +56,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroHeading = styled.h1`
+  max-width: 720px;
   color: #fff;
   font-size: 48px;
   text-align: center;

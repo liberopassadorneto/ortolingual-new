@@ -25,8 +25,10 @@ export function HeroSection() {
         <VideoBg playsInline autoPlay loop muted src={videoBg} />
       </HeroBg>
       <HeroContent>
-        <HeroHeading>Curso presencial de Ortodoncia Lingual</HeroHeading>
-        <HeroSubtitle>Prof. Dr. Marcos Prieto</HeroSubtitle>
+        <HeroHeading>
+          Ortodoncia Lingual y {'\n'} Alineadores en Office
+        </HeroHeading>
+        <HeroSubtitle>Curso en línea vía Zoom</HeroSubtitle>
         <HeroBtnWrapper>
           <LinkS
             to='about'

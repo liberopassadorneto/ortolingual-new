@@ -2,7 +2,7 @@ export const infoObjOne = {
   id: 'about',
   lightBg: false,
   lightText: true,
-  topLine: 'Teórico · Laboratorio · clínico',
+  topLine: 'Teórico · Laboratorio · Clínico',
   heading: 'Objetivos del curso',
   subtitles: [
     {
@@ -11,12 +11,12 @@ export const infoObjOne = {
     },
     {
       id: '02',
-      content: 'Comprender los principios biomecánicos',
+      content:
+        'Capacitar o ortodoncista a aplicación clínica de la técnica lingual',
     },
     {
       id: '03',
-      content:
-        'Capacitar o ortodoncista a aplicación clínica de la técnica lingual',
+      content: 'Permita que el ortodoncista use Alineadores in Office.',
     },
   ],
   btnLabel: 'Suscríbete ahora',
@@ -32,17 +32,20 @@ export const infoObjTwo = {
   id: 'discover',
   lightBg: true,
   lightText: false,
-  topLine: 'Campo Grande (MS) · Brasil',
+  topLine: 'En línea · Zoom',
   heading: 'Calendario',
   subtitles: [
     {
       id: '01',
-      content: 'Nos dias 22, 23 y 24 de Enero 2022',
+      content: 'El curso comenzará el 27 de Febrero de 2022',
     },
     {
       id: '02',
-      content:
-        'En la dirección Travessa Tabelião Nelson Pereira Seba, 08 - Chácara Cachoeira',
+      content: 'Tendremos 10 clases online con 3 horas de duración',
+    },
+    {
+      id: '02',
+      content: 'As clases serán los Domingos a las 11 am (São Paulo)',
     },
   ],
   btnLabel: 'Suscríbete ahora',
@@ -73,5 +76,5 @@ export const infoObjThree = {
   alt: 'Messages',
   dark: false,
   primary: false,
-  url: 'https://landing.mailerlite.com/webforms/landing/c1s7x7',
+  url: 'https://landing.mailerlite.com/webforms/landing/w1c1q1',
 };

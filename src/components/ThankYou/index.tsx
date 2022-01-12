@@ -29,7 +29,7 @@ export function ThankYou() {
               curso.
             </CardText>
             <LinkBtn
-              href='https://chat.whatsapp.com/Dw1sAzbM2R6BdE4JWvzFAF'
+              href='https://chat.whatsapp.com/JtxdLmKyGvKGoDwyDiD5U0'
               target='_blank'
             >
               <CardBtn>Hablar por WhatsApp</CardBtn>
