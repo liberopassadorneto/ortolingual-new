@@ -7,7 +7,7 @@ import {
   infoObjOne,
   infoObjThree,
   infoObjTwo,
-} from '../components/InfoSection/data';
+} from '../components/InfoSection/Data';
 import { Navbar } from '../components/Navbar';
 import { Sidebar } from '../components/Sidebar';
 import { Testimonials } from '../components/Testimonials';
@@ -27,8 +27,8 @@ export function Home() {
       <InfoSection {...infoObjOne} />
       <InfoSection {...infoObjTwo} />
       <Features />
-      <InfoSection {...infoObjThree} />
       <Testimonials />
+      <InfoSection {...infoObjThree} />
       <Footer />
     </>
   );
