@@ -26,9 +26,9 @@ export function Home() {
       <HeroSection />
       <InfoSection {...infoObjOne} />
       <InfoSection {...infoObjTwo} />
+      <Testimonials />
       <Features />
       <InfoSection {...infoObjThree} />
-      <Testimonials />
       <Footer />
     </>
   );

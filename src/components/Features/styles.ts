@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const FeaturesContainer = styled.div`
   height: 1600px;
@@ -13,7 +13,7 @@ export const FeaturesContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 3500px;
+    height: 3600px;
   }
 `;
 
@@ -73,7 +73,9 @@ export const FeaturesHeading = styled.h1`
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
+    width: 70vw;
     font-size: 2rem;
+    text-align: center;
   }
 `;
 

@@ -126,12 +126,11 @@ export const cardObjSevenEight = {
   topics: [
     {
       id: '01',
-      title:
-        '📛 Alineadores in Office con el Con el Prof. Giovanni de Carvalho ',
+      title: '📛 Alineadores in Office con el Prof. Giovanni de Carvalho',
     },
     {
       id: '02',
-      title: '📛 Alineadores in Office con el Prof. Mauro Melo ',
+      title: '📛 Alineadores in Office con el Prof. Mauro Melo',
     },
   ],
 };

@@ -8,7 +8,7 @@ export const TestimonialsContainer = styled.div`
   justify-content: flex-start;
   padding: 100px 0;
   align-items: center;
-  background: #010606;
+  background: #121214;
 
   /* @media screen and (max-width: 768px) {
     height: 1100px;
