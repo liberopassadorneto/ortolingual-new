@@ -1,4 +1,4 @@
-import { BtnCta, BtnCtaProps } from '../Button';
+import { BtnCta, BtnCtaProps } from "../Button";
 import {
   BtnWrapper,
   Column1,
@@ -12,13 +12,13 @@ import {
   Subtitle,
   TextWrapper,
   TopLine,
-} from './InfoElements';
+} from "./InfoElements";
 import {
   HeadingProps,
   InfoContainerProps,
   InfoRowProps,
   SubtitleProps,
-} from './types';
+} from "./types";
 
 type SubtitleType = {
   id: string;
@@ -73,13 +73,13 @@ export function InfoSection({
               })}
               <BtnWrapper>
                 {url ? (
-                  <a href={url} target='_blank'>
+                  <a href={url} target="_blank">
                     <BtnCta primary={primary} dark={dark}>
                       {btnLabel}
                     </BtnCta>
                   </a>
                 ) : (
-                  ''
+                  ""
                 )}
               </BtnWrapper>
             </TextWrapper>

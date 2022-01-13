@@ -1,41 +1,32 @@
+import { ClassCard } from "../ClassCard";
 import {
-  FeaturesCard,
-  FeaturesContainer,
-  FeaturesDesc,
-  FeaturesHeading,
-  FeaturesIcon,
-  FeaturesSubtitle,
-  FeaturesWrapper
-} from './styles';
-import icon1 from '/assets/images/piggy.svg';
+  cardObjBonus,
+  cardObjEight,
+  cardObjFive,
+  cardObjFour,
+  cardObjOne,
+  cardObjSeven,
+  cardObjSix,
+  cardObjThree,
+  cardObjTwo,
+} from "../ClassCard/data";
+import { FeaturesContainer, FeaturesHeading, FeaturesWrapper } from "./styles";
 
 export function Features() {
   return (
     <FeaturesContainer id='features'>
-      <FeaturesHeading>Contenido del Curso</FeaturesHeading>
+      <FeaturesHeading>Contenido del curso</FeaturesHeading>
       <FeaturesWrapper>
-        <FeaturesCard>
-          <FeaturesIcon src={icon1} />
-          <FeaturesSubtitle>Reduce expenses</FeaturesSubtitle>
-          <FeaturesDesc>
-            We help reduce your fess and increase yout overall revenue.
-          </FeaturesDesc>
-        </FeaturesCard>
-        <FeaturesCard>
-          <FeaturesIcon src={icon1} />
-          <FeaturesSubtitle>Reduce expenses</FeaturesSubtitle>
-          <FeaturesDesc>
-            We help reduce your fess and increase yout overall revenue.
-          </FeaturesDesc>
-        </FeaturesCard>
-        <FeaturesCard>
-          <FeaturesIcon src={icon1} />
-          <FeaturesSubtitle>Reduce expenses</FeaturesSubtitle>
-          <FeaturesDesc>
-            We help reduce your fess and increase your overall revenue.
-          </FeaturesDesc>
-        </FeaturesCard>
-          </FeaturesWrapper>
+        <ClassCard {...cardObjOne} />
+        <ClassCard {...cardObjTwo} />
+        <ClassCard {...cardObjThree} />
+        <ClassCard {...cardObjFour} />
+        <ClassCard {...cardObjFive} />
+        <ClassCard {...cardObjSix} />
+        <ClassCard {...cardObjSeven} />
+        <ClassCard {...cardObjEight} />
+        <ClassCard {...cardObjBonus} />
+      </FeaturesWrapper>
     </FeaturesContainer>
   );
 }
