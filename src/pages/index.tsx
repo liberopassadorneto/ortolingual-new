@@ -1,16 +1,16 @@
-import { useState } from 'react';
-import { Features } from '../components/Features';
-import { Footer } from '../components/Footer';
-import { HeroSection } from '../components/HeroSection';
-import { InfoSection } from '../components/InfoSection';
+import { useState } from "react";
+import { Features } from "../components/Features";
+import { Footer } from "../components/Footer";
+import { HeroSection } from "../components/HeroSection";
+import { InfoSection } from "../components/InfoSection";
 import {
   infoObjOne,
   infoObjThree,
-  infoObjTwo
-} from '../components/InfoSection/data';
-import { Navbar } from '../components/Navbar';
-import { Sidebar } from '../components/Sidebar';
-import { Testimonials } from '../components/Testimonials';
+  infoObjTwo,
+} from "../components/InfoSection/data";
+import { Navbar } from "../components/Navbar";
+import { Sidebar } from "../components/Sidebar";
+import { Testimonials } from "../components/Testimonials";
 
 export function Home() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
