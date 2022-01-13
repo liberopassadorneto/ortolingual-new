@@ -1,20 +1,21 @@
 import styled from 'styled-components';
 
 export const FeaturesContainer = styled.div`
-  height: 800px;
+  min-height: 768px;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #010606;
 
-  @media screen and (max-width: 768px) {
-    height: 1100px;
-  }
+  /* @media screen and (max-width: 768px) {
+    height: 960px;
+  } */
 
-  @media screen and (max-width: 480px) {
-    height: 1300px;
-  }
+  /* @media screen and (max-width: 480px) {
+    height: 960px;
+  } */
 `;
 
 export const FeaturesWrapper = styled.div`
@@ -24,6 +25,7 @@ export const FeaturesWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   align-items: center;
+  justify-content: center;
   padding: 0 50px;
 
   @media screen and (max-width: 1000px) {

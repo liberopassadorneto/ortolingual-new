@@ -9,7 +9,7 @@ import {
   CardWrapper,
   Container,
   ContentWrapper,
-  LinkBtn,
+  LinkBtn
 } from './ThankYouElements';
 
 export function ThankYou() {

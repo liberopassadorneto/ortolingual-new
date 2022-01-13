@@ -1,12 +1,13 @@
 import { useState } from 'react';
+import { Features } from '../components/Features';
 import { Footer } from '../components/Footer';
 import { HeroSection } from '../components/HeroSection';
 import { InfoSection } from '../components/InfoSection';
 import {
   infoObjOne,
   infoObjThree,
-  infoObjTwo,
-} from '../components/InfoSection/Data';
+  infoObjTwo
+} from '../components/InfoSection/data';
 import { Navbar } from '../components/Navbar';
 import { Sidebar } from '../components/Sidebar';
 import { Testimonials } from '../components/Testimonials';
@@ -25,9 +26,9 @@ export function Home() {
       <HeroSection />
       <InfoSection {...infoObjOne} />
       <InfoSection {...infoObjTwo} />
-      {/* <Features /> */}
-      <Testimonials />
+      <Features />
       <InfoSection {...infoObjThree} />
+      <Testimonials />
       <Footer />
     </>
   );

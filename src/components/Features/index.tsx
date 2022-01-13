@@ -5,14 +5,14 @@ import {
   FeaturesHeading,
   FeaturesIcon,
   FeaturesSubtitle,
-  FeaturesWrapper,
-} from './FeaturesElements';
+  FeaturesWrapper
+} from './styles';
 import icon1 from '/assets/images/piggy.svg';
 
 export function Features() {
   return (
     <FeaturesContainer id='features'>
-      <FeaturesHeading>Our Features</FeaturesHeading>
+      <FeaturesHeading>Contenido del Curso</FeaturesHeading>
       <FeaturesWrapper>
         <FeaturesCard>
           <FeaturesIcon src={icon1} />
@@ -35,7 +35,7 @@ export function Features() {
             We help reduce your fess and increase your overall revenue.
           </FeaturesDesc>
         </FeaturesCard>
-      </FeaturesWrapper>
+          </FeaturesWrapper>
     </FeaturesContainer>
   );
 }
