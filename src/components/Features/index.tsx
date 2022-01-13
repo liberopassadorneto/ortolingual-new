@@ -1,16 +1,16 @@
-import { ClassCard } from "../ClassCard";
+import { ClassCard } from '../ClassCard';
 import {
-  cardObjBonus,
-  cardObjEight,
   cardObjFive,
   cardObjFour,
+  cardObjNine,
   cardObjOne,
-  cardObjSeven,
+  cardObjSevenEight,
   cardObjSix,
+  cardObjTen,
   cardObjThree,
   cardObjTwo,
-} from "../ClassCard/data";
-import { FeaturesContainer, FeaturesHeading, FeaturesWrapper } from "./styles";
+} from '../ClassCard/data';
+import { FeaturesContainer, FeaturesHeading, FeaturesWrapper } from './styles';
 
 export function Features() {
   return (
@@ -23,9 +23,9 @@ export function Features() {
         <ClassCard {...cardObjFour} />
         <ClassCard {...cardObjFive} />
         <ClassCard {...cardObjSix} />
-        <ClassCard {...cardObjSeven} />
-        <ClassCard {...cardObjEight} />
-        <ClassCard {...cardObjBonus} />
+        <ClassCard {...cardObjSevenEight} />
+        <ClassCard {...cardObjNine} />
+        <ClassCard {...cardObjTen} />
       </FeaturesWrapper>
     </FeaturesContainer>
   );
