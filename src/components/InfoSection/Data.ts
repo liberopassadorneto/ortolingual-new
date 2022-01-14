@@ -2,7 +2,7 @@ export const infoObjOne = {
   id: 'about',
   lightBg: false,
   lightText: true,
-  topLine: 'Lingual · Alienadores',
+  topLine: 'Lingual · Alineadores',
   heading: 'Objetivos del curso',
   subtitles: [
     {
