@@ -10,7 +10,11 @@ import {
   cardObjThree,
   cardObjTwo,
 } from '../ClassCard/data';
-import { FeaturesContainer, FeaturesHeading, FeaturesWrapper } from './styles';
+import {
+  FeaturesContainer,
+  FeaturesHeading,
+  FeaturesWrapper,
+} from './FeaturesElements';
 
 export function Features() {
   return (

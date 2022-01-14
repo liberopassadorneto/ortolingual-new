@@ -1,20 +1,22 @@
 import styled from 'styled-components';
 
 export const FeaturesContainer = styled.div`
-  height: 1600px;
+  height: auto;
   display: flex;
+  text-align: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 100px 0;
   align-items: center;
   background: #010606;
 
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     height: 3000px;
   }
 
   @media screen and (max-width: 480px) {
     height: 3600px;
-  }
+  } */
 `;
 
 export const FeaturesWrapper = styled.div`

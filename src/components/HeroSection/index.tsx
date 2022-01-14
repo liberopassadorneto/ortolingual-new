@@ -26,9 +26,9 @@ export function HeroSection() {
       </HeroBg>
       <HeroContent>
         <HeroHeading>
-          Ortodoncia Lingual y {'\n'} Alineadores en Office
+          Ortodoncia Lingual y {'\n'} Alineadores in Office
         </HeroHeading>
-        <HeroSubtitle>Curso en línea vía Zoom</HeroSubtitle>
+        <HeroSubtitle>curso en español</HeroSubtitle>
         <HeroBtnWrapper>
           <LinkS
             to='about'

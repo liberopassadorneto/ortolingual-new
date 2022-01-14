@@ -1,22 +1,22 @@
 export const navBarData = [
   {
-    id: "about",
-    title: "Objetivos",
+    id: 'about',
+    title: 'Objetivos',
   },
   {
-    id: "discover",
-    title: "Calendario",
+    id: 'discover',
+    title: 'Calendario',
   },
   {
-    id: "features",
-    title: "Contenido del curso",
+    id: 'testimonials',
+    title: 'Testimonios',
   },
   {
-    id: "testimonials",
-    title: "Testimonios",
+    id: 'features',
+    title: 'Contenido del curso',
   },
   {
-    id: "signup",
-    title: "Entre em contacto",
+    id: 'signup',
+    title: 'Entre em contacto',
   },
 ];

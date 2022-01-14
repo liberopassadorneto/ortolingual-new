@@ -2,7 +2,7 @@ export const infoObjOne = {
   id: 'about',
   lightBg: false,
   lightText: true,
-  topLine: 'Teórico · Laboratorio · Clínico',
+  topLine: 'Lingual · Alienadores',
   heading: 'Objetivos del curso',
   subtitles: [
     {
@@ -16,7 +16,8 @@ export const infoObjOne = {
     },
     {
       id: '03',
-      content: 'Permita que el ortodoncista use Alineadores in Office',
+      content:
+        'Permita que el ortodoncista use Alineadores in Office en tu clínica',
     },
   ],
   btnLabel: 'Suscríbete ahora',
@@ -67,7 +68,7 @@ export const infoObjThree = {
     {
       id: '01',
       content:
-        'Haga clic en el botón de abajo para completar el formulario y unirse al grupo exclusivo de WhatsApp.',
+        'Haga clic en el botón de abajo para recibir más información sobre el curso.',
     },
   ],
   btnLabel: 'Suscríbete ahora',
