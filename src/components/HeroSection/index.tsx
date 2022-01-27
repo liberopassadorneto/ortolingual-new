@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 import { BtnCta } from '../Button';
 import {
@@ -15,23 +16,40 @@ import videoBg from '/assets/videos/videoBg.mp4';
 export function HeroSection() {
   const [hover, setHover] = useState<boolean>(false);
 
+  const [locale, setLocale] = useState<string>('esp');
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    const cwbPathname = pathname.includes('cwb');
+    if (cwbPathname) {
+      setLocale('ptbr');
+    } else {
+      setLocale('esp');
+    }
+  }, []);
+
   function onHover() {
     setHover(!hover);
   }
 
   return (
-    <HeroContainer id='hero'>
+    <HeroContainer id="hero">
       <HeroBg>
         <VideoBg playsInline autoPlay loop muted src={videoBg} />
       </HeroBg>
       <HeroContent>
         <HeroHeading>
-          Ortodoncia Lingual y {'\n'} Alineadores in Office
+          {locale === 'esp'
+            ? `Ortodoncia Lingual y {'\n'} Alineadores in Office`
+            : 'Sistema Lingual Prieto em Curitiba'}
         </HeroHeading>
-        <HeroSubtitle>curso en español</HeroSubtitle>
+        <HeroSubtitle>
+          {locale === 'esp' ? 'curso en español' : 'curso presencial'}
+        </HeroSubtitle>
         <HeroBtnWrapper>
           <LinkS
-            to='about'
+            to="about"
             smooth={true}
             duration={700}
             spy={true}
@@ -39,7 +57,7 @@ export function HeroSection() {
           >
             <BtnCta onMouseEnter={onHover} onMouseLeave={onHover}>
               {/* Saber más {hover ? <ArrowForward /> : <ArrowRight />} */}
-              Saber más
+              {locale === 'esp' ? 'Saber más' : 'Saiba mais'}
             </BtnCta>
           </LinkS>
         </HeroBtnWrapper>

@@ -182,3 +182,51 @@ export const cardObjTen = {
     },
   ],
 };
+
+export const cardObjOnePtBr = {
+  id: '11',
+  topLine: 'Dia 01',
+  title: '12/03',
+  topics: [
+    {
+      id: '01',
+      title: '▶️ Sistema Lingual Arco-Reto',
+    },
+    {
+      id: '02',
+      title: '▶️ Agulação e Torque nos Brackets',
+    },
+    {
+      id: '03',
+      title: '▶️ Sistemas de montagem de laboratório',
+    },
+    {
+      id: '04',
+      title: '▶️ Instrumentais em Ortodontia Lingual',
+    },
+  ],
+};
+
+export const cardObjTwoPtBr = {
+  id: '12',
+  topLine: 'Dia 02',
+  title: '13/03',
+  topics: [
+    {
+      id: '01',
+      title: '▶️ Casos Clínicos sobre Diagramas',
+    },
+    {
+      id: '02',
+      title: '▶️ Controle de Curvas de Spee nos Arcos',
+    },
+    {
+      id: '03',
+      title: '▶️ Apresentação de Casos Clínicos',
+    },
+    {
+      id: '04',
+      title: '▶️ Finalização / Contenção',
+    },
+  ],
+};

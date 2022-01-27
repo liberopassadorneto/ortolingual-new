@@ -1,4 +1,4 @@
-export const navBarData = [
+export const navBarDataEsp = [
   {
     id: 'about',
     title: 'Objetivos',
@@ -18,5 +18,28 @@ export const navBarData = [
   {
     id: 'signup',
     title: 'Entre em contacto',
+  },
+];
+
+export const navBarDataPtBr = [
+  {
+    id: 'about',
+    title: 'Objetivos',
+  },
+  {
+    id: 'discover',
+    title: 'Calendario',
+  },
+  {
+    id: 'testimonials',
+    title: 'Depoimentos',
+  },
+  {
+    id: 'features',
+    title: 'Conteúdo do curso',
+  },
+  {
+    id: 'signup',
+    title: 'Entre em contato',
   },
 ];

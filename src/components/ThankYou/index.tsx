@@ -1,3 +1,4 @@
+import { useLocation } from 'react-router-dom';
 import { Icon } from '../Signin/SigninElements';
 import {
   CardBtn,
@@ -9,30 +10,42 @@ import {
   CardWrapper,
   Container,
   ContentWrapper,
-  LinkBtn
+  LinkBtn,
 } from './ThankYouElements';
 
 export function ThankYou() {
+  const { pathname } = useLocation();
+  const cwbPathname = pathname.includes('cwb');
+
   return (
     <Container>
       <ContentWrapper>
-        <Icon to='/'>voltar</Icon>
+        <Icon to="/">voltar</Icon>
         <CardWrapper>
           <CardContainer>
-            <CardHeading>¡Gracias!</CardHeading>
+            <CardHeading>{cwbPathname ? 'Obrigado!' : '¡Gracias!'}</CardHeading>
             <CardSubtitle>
-              Su inscripción en el curso fue un éxito.
+              {cwbPathname
+                ? 'Sua inscrição está confirmada.'
+                : 'Su inscripción en el curso fue un éxito.'}
             </CardSubtitle>
             <CardDivider />
             <CardText>
-              Haga clic en el botón verde para unirse al grupo de WhatsApp del
-              curso.
+              {cwbPathname
+                ? 'Clique no botão verde para entrar no grupo exclusivo de WhatsApp.'
+                : 'Haga clic en el botón verde para unirse al grupo de WhatsApp del curso.'}
             </CardText>
             <LinkBtn
-              href='https://chat.whatsapp.com/JtxdLmKyGvKGoDwyDiD5U0'
-              target='_blank'
+              href={
+                cwbPathname
+                  ? 'https://chat.whatsapp.com/IL0SNOgMgik9cfTWr5EiAk'
+                  : 'https://chat.whatsapp.com/JtxdLmKyGvKGoDwyDiD5U0'
+              }
+              target="_blank"
             >
-              <CardBtn>Hablar por WhatsApp</CardBtn>
+              <CardBtn>
+                {cwbPathname ? 'Entrar' : 'Hablar por WhatsApp'}
+              </CardBtn>
             </LinkBtn>
           </CardContainer>
         </CardWrapper>
