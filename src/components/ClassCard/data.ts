@@ -190,39 +190,39 @@ export const cardObjOnePtBr = {
   topics: [
     {
       id: '01',
-      title: '🪐 Vantagens e Aplicações da Ortodontia Lingual',
+      title: '👨‍🚀️ Vantagens e Aplicações da Ortodontia Lingual',
     },
     {
       id: '02',
-      title: '🪐 Sistema Lingual Arco-Reto Prieto',
+      title: '👨‍🚀️ Sistema Lingual Arco-Reto Prieto',
     },
     {
       id: '03',
-      title: '🪐 Angulação e Torque dos Brackets',
+      title: '👨‍🚀️ Angulação e Torque dos Brackets',
     },
     {
       id: '04',
-      title: '🪐 Quando não colar brackets anteriores no início do tratamento',
+      title: '👨‍🚀️ Quando não colar brackets anteriores no início do tratamento',
     },
     {
       id: '05',
-      title: '🪐 Sistemas de Montagem de Laboratório',
+      title: '👨‍🚀️ Sistemas de Montagem de Laboratório',
     },
     {
       id: '06',
-      title: '🪐 Colagem de Brackets',
+      title: '👨‍🚀️ Colagem de Brackets',
     },
     {
       id: '07',
-      title: '🪐 Diagrama Lingual Prieto Arcos Linguais',
+      title: '👨‍🚀️ Diagrama Lingual Prieto Arcos Linguais',
     },
     {
       id: '08',
-      title: '🪐 Sequência de Arcos',
+      title: '👨‍🚀️ Sequência de Arcos',
     },
     {
       id: '09',
-      title: '🪐 Correção da Curva de Spee',
+      title: '👨‍🚀️ Correção da Curva de Spee',
     },
   ],
 };
@@ -234,28 +234,28 @@ export const cardObjTwoPtBr = {
   topics: [
     {
       id: '01',
-      title: '🪐 Apresentação de Casos Clínicos',
+      title: '👨‍🚀️ Apresentação de Casos Clínicos',
     },
     {
       id: '02',
-      title: '🪐 Práctica: Montagem de Typodont',
+      title: '👨‍🚀️ Práctica: Montagem de Typodont',
     },
     {
       id: '03',
-      title: '🪐 Posicionamento de Brackets',
+      title: '👨‍🚀️ Posicionamento de Brackets',
     },
     {
       id: '04',
-      title: '🪐 Teoria: Biomecânica',
+      title: '👨‍🚀️ Teoria: Biomecânica',
     },
     {
       id: '05',
-      title: '🪐 Mecânica de Expansão',
+      title: '👨‍🚀️ Mecânica de Expansão',
     },
     {
       id: '06',
       title:
-        '🪐 Prática de Mecânica de Expansão Typodont (uso de Stop no Arco .012" NiTi)',
+        '👨‍🚀️ Prática de Mecânica de Expansão Typodont (uso de Stop no Arco .012" NiTi)',
     },
   ],
 };
@@ -267,35 +267,35 @@ export const cardObjThreePtBr = {
   topics: [
     {
       id: '01',
-      title: '🚀 Confecção de botões estéticos',
+      title: '🪐 Confecção de botões estéticos',
     },
     {
       id: '02',
-      title: '🚀 Conjugados / Binários / Ligadura de Scott',
+      title: '🪐 Conjugados / Binários / Ligadura de Scott',
     },
     {
       id: '03',
-      title: '🚀 Amarrar os arcos NiTi no manequim e dobras nas extremidades',
+      title: '🪐 Amarrar os arcos NiTi no manequim e dobras nas extremidades',
     },
     {
       id: '04',
-      title: '🚀 Confeccção de arcos .014" e aço .016" com omegas',
+      title: '🪐 Confeccção de arcos .014" e aço .016" com omegas',
     },
     {
       id: '05',
-      title: '🚀 Mordidas: Aberta e Fechada',
+      title: '🪐 Mordidas: Aberta e Fechada',
     },
     {
       id: '06',
-      title: '🚀 Casos Assimétricos: com e sem Extração',
+      title: '🪐 Casos Assimétricos: com e sem Extração',
     },
     {
       id: '07',
-      title: '🚀 Ancoragem com Mini-Parafusos',
+      title: '🪐 Ancoragem com Mini-Parafusos',
     },
     {
       id: '08',
-      title: '🚀 Intra e Extra-Alveolar',
+      title: '🪐 Intra e Extra-Alveolar',
     },
   ],
 };
@@ -307,39 +307,39 @@ export const cardObjFourPtBr = {
   topics: [
     {
       id: '01',
-      title: '🚀 Fabricação de Arcos 16 X 22 TMA e Aço',
+      title: '🪐 Fabricação de Arcos 16 X 22 TMA e Aço',
     },
     {
       id: '02',
-      title: '🚀 Controle de Curvas de Spee nos arcos',
+      title: '🪐 Controle de Curvas de Spee nos arcos',
     },
     {
       id: '03',
-      title: '🚀 Biomecánica de Clase II',
+      title: '🪐 Biomecánica de Clase II',
     },
     {
       id: '04',
-      title: '🚀 Biomecánica de Clase III',
+      title: '🪐 Biomecánica de Clase III',
     },
     {
       id: '05',
-      title: '🚀 Fechamento de Espaços em Casos com Extrações',
+      title: '🪐 Fechamento de Espaços em Casos com Extrações',
     },
     {
       id: '06',
-      title: '🚀 Efeito Bowing, Sliding y Rolling',
+      title: '🪐 Efeito Bowing, Sliding y Rolling',
     },
     {
       id: '07',
-      title: '🚀 Finalização e Contenção',
+      title: '🪐 Finalização e Contenção',
     },
     {
       id: '08',
-      title: '🚀 Casos Ortocirúrgicos',
+      title: '🪐 Casos Ortocirúrgicos',
     },
     {
       id: '08',
-      title: '🚀 Apresentação de Casos Clínicos',
+      title: '🪐 Apresentação de Casos Clínicos',
     },
   ],
 };

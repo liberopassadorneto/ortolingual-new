@@ -36,7 +36,7 @@ export const TopLine = styled.h2`
   color: #01bf71;
   font-weight: 600;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 
   @media screen and (max-width: 480px) {
     font-size: 1rem;

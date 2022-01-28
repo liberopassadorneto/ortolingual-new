@@ -23,7 +23,7 @@ export function PricingCard({ topLine, title, topics }: PricingCardProps) {
   return (
     <Container>
       {/* <FeaturesIcon src={icon1} /> */}
-      <TopLine>Curso Presencial</TopLine>
+      <TopLine>Curso Presencial - Curitiba</TopLine>
       <Title>
         $40 <span>dólares</span>
       </Title>
