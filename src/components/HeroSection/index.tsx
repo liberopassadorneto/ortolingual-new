@@ -41,11 +41,13 @@ export function HeroSection() {
       <HeroContent>
         <HeroHeading>
           {locale === 'esp'
-            ? `Ortodoncia Lingual y {'\n'} Alineadores in Office`
+            ? `Ortodoncia Lingual y Alineadores in Office`
             : 'Sistema Lingual Prieto em Curitiba'}
         </HeroHeading>
         <HeroSubtitle>
-          {locale === 'esp' ? 'curso en español' : 'curso presencial'}
+          {locale === 'esp'
+            ? 'curso en español - en línea'
+            : 'curso presencial'}
         </HeroSubtitle>
         <HeroBtnWrapper>
           <LinkS

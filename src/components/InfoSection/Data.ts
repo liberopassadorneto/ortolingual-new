@@ -117,7 +117,7 @@ export const infoObjFive = {
   lightBg: true,
   lightText: false,
   topLine: 'Presencial - Curitiba',
-  heading: 'Calendario',
+  heading: 'Calendário',
   subtitles: [
     {
       id: '01',

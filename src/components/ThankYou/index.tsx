@@ -31,7 +31,7 @@ export function ThankYou() {
   return (
     <Container>
       <ContentWrapper>
-        <Icon to="/">voltar</Icon>
+        <Icon to={locale === 'esp' ? '/' : '/cwb'}>voltar</Icon>
         <CardWrapper>
           <CardContainer>
             <CardHeading>
