@@ -90,17 +90,17 @@ export const infoObjFour = {
     {
       id: '01',
       content:
-        'Capacitar o ortodontista nas etapas de montagem do aparelho lingual',
+        'Capacitar o ortodontista sobre os Princípios Biomecânicos em Ortodontia Lingual',
     },
     {
       id: '02',
       content:
-        'Treinar o ortodontista para aplicação clínica da técnica lingual',
+        'Preparar o ortodontista para o tratamento de casos simples utilizando a Técnica Lingual',
     },
     {
       id: '03',
       content:
-        'Qualificar o ortodontista na utilização de brackets linguais em seus pacientes',
+        'Qualificar o ortodontista para o tratamento de más oclusões de média e alta complexidade',
     },
   ],
   btnLabel: 'Inscreva-se agora',

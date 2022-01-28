@@ -185,48 +185,161 @@ export const cardObjTen = {
 
 export const cardObjOnePtBr = {
   id: '11',
-  topLine: 'Dia 01',
+  topLine: 'Dia 1 | 9h - 13h',
   title: '12/03',
   topics: [
     {
       id: '01',
-      title: '▶️ Sistema Lingual Arco-Reto',
+      title: '🪐 Vantagens e Aplicações da Ortodontia Lingual',
     },
     {
       id: '02',
-      title: '▶️ Agulação e Torque nos Brackets',
+      title: '🪐 Sistema Lingual Arco-Reto Prieto',
     },
     {
       id: '03',
-      title: '▶️ Sistemas de montagem de laboratório',
+      title: '🪐 Angulação e Torque dos Brackets',
     },
     {
       id: '04',
-      title: '▶️ Instrumentais em Ortodontia Lingual',
+      title: '🪐 Quando não colar brackets anteriores no início do tratamento',
+    },
+    {
+      id: '05',
+      title: '🪐 Sistemas de Montagem de Laboratório',
+    },
+    {
+      id: '06',
+      title: '🪐 Colagem de Brackets',
+    },
+    {
+      id: '07',
+      title: '🪐 Diagrama Lingual Prieto Arcos Linguais',
+    },
+    {
+      id: '08',
+      title: '🪐 Sequência de Arcos',
+    },
+    {
+      id: '09',
+      title: '🪐 Correção da Curva de Spee',
     },
   ],
 };
 
 export const cardObjTwoPtBr = {
   id: '12',
-  topLine: 'Dia 02',
+  topLine: 'Dia 1 | 14h - 18h',
+  title: '12/03',
+  topics: [
+    {
+      id: '01',
+      title: '🪐 Apresentação de Casos Clínicos',
+    },
+    {
+      id: '02',
+      title: '🪐 Práctica: Montagem de Typodont',
+    },
+    {
+      id: '03',
+      title: '🪐 Posicionamento de Brackets',
+    },
+    {
+      id: '04',
+      title: '🪐 Teoria: Biomecânica',
+    },
+    {
+      id: '05',
+      title: '🪐 Mecânica de Expansão',
+    },
+    {
+      id: '06',
+      title:
+        '🪐 Prática de Mecânica de Expansão Typodont (uso de Stop no Arco .012" NiTi)',
+    },
+  ],
+};
+
+export const cardObjThreePtBr = {
+  id: '13',
+  topLine: 'Dia 2 | 9h - 13h',
   title: '13/03',
   topics: [
     {
       id: '01',
-      title: '▶️ Casos Clínicos sobre Diagramas',
+      title: '🚀 Confecção de botões estéticos',
     },
     {
       id: '02',
-      title: '▶️ Controle de Curvas de Spee nos Arcos',
+      title: '🚀 Conjugados / Binários / Ligadura de Scott',
     },
     {
       id: '03',
-      title: '▶️ Apresentação de Casos Clínicos',
+      title: '🚀 Amarrar os arcos NiTi no manequim e dobras nas extremidades',
     },
     {
       id: '04',
-      title: '▶️ Finalização / Contenção',
+      title: '🚀 Confeccção de arcos .014" e aço .016" com omegas',
+    },
+    {
+      id: '05',
+      title: '🚀 Mordidas: Aberta e Fechada',
+    },
+    {
+      id: '06',
+      title: '🚀 Casos Assimétricos: com e sem Extração',
+    },
+    {
+      id: '07',
+      title: '🚀 Ancoragem com Mini-Parafusos',
+    },
+    {
+      id: '08',
+      title: '🚀 Intra e Extra-Alveolar',
+    },
+  ],
+};
+
+export const cardObjFourPtBr = {
+  id: '13',
+  topLine: 'Dia 2 | 14h - 18h',
+  title: '13/03',
+  topics: [
+    {
+      id: '01',
+      title: '🚀 Fabricação de Arcos 16 X 22 TMA e Aço',
+    },
+    {
+      id: '02',
+      title: '🚀 Controle de Curvas de Spee nos arcos',
+    },
+    {
+      id: '03',
+      title: '🚀 Biomecánica de Clase II',
+    },
+    {
+      id: '04',
+      title: '🚀 Biomecánica de Clase III',
+    },
+    {
+      id: '05',
+      title: '🚀 Fechamento de Espaços em Casos com Extrações',
+    },
+    {
+      id: '06',
+      title: '🚀 Efeito Bowing, Sliding y Rolling',
+    },
+    {
+      id: '07',
+      title: '🚀 Finalização e Contenção',
+    },
+    {
+      id: '08',
+      title: '🚀 Casos Ortocirúrgicos',
+    },
+    {
+      id: '08',
+      title: '🚀 Apresentação de Casos Clínicos',
     },
   ],
 };

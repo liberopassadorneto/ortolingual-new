@@ -7,8 +7,8 @@ export const Container = styled.div`
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  width: 320px;
-  height: 400px;
+  width: 380px;
+  height: 600px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
@@ -46,6 +46,12 @@ export const TopLine = styled.h2`
 export const Title = styled.h1`
   font-size: 1.8rem;
   margin-bottom: 10px;
+
+  > span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4d4d57;
+  }
 
   @media screen and (max-width: 480px) {
     font-size: 1.4rem;

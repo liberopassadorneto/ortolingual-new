@@ -4,6 +4,7 @@ import { ClassCard } from '../ClassCard';
 import {
   cardObjFive,
   cardObjFour,
+  cardObjFourPtBr,
   cardObjNine,
   cardObjOne,
   cardObjOnePtBr,
@@ -11,6 +12,7 @@ import {
   cardObjSix,
   cardObjTen,
   cardObjThree,
+  cardObjThreePtBr,
   cardObjTwo,
   cardObjTwoPtBr,
 } from '../ClassCard/data';
@@ -56,6 +58,8 @@ export function Features() {
           <>
             <ClassCard {...cardObjOnePtBr} />
             <ClassCard {...cardObjTwoPtBr} />
+            <ClassCard {...cardObjThreePtBr} />
+            <ClassCard {...cardObjFourPtBr} />
           </>
         )}
       </FeaturesWrapper>

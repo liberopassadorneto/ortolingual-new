@@ -1,4 +1,11 @@
-import { Container, Divider, Title, Topic, Topics, TopLine } from "./styles";
+import {
+  Container,
+  Divider,
+  Title,
+  Topic,
+  Topics,
+  TopLine,
+} from './ClassCardElements';
 
 type TopicType = {
   id: string;
@@ -8,10 +15,16 @@ type TopicType = {
 interface ClassCardProps {
   topLine: string;
   title: string;
+
   topics: TopicType[];
 }
 
-export function ClassCard({ topLine, title, topics }: ClassCardProps) {
+export function ClassCard({
+  topLine,
+  title,
+
+  topics,
+}: ClassCardProps) {
   return (
     <Container>
       {/* <FeaturesIcon src={icon1} /> */}
