@@ -28,7 +28,7 @@ export const navBarDataPtBr = [
   },
   {
     id: 'discover',
-    title: 'Calendario',
+    title: 'Calendário',
   },
   {
     id: 'testimonials',
