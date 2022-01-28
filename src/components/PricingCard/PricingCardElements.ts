@@ -20,7 +20,7 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    width: 260px;
+    width: 300px;
     height: auto;
   }
 `;
@@ -39,7 +39,7 @@ export const TopLine = styled.h2`
   margin-bottom: 16px;
 
   @media screen and (max-width: 480px) {
-    font-size: 1rem;
+    font-size: 0.85rem;
     margin-bottom: 16px;
   }
 `;
@@ -49,7 +49,7 @@ export const Title = styled.h1`
   margin-bottom: 10px;
 
   > span {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 500;
     color: #4d4d57;
   }

@@ -1,4 +1,8 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
+interface FeaturesWrapperProps {
+  language: string;
+}
 
 export const FeaturesContainer = styled.div`
   height: auto;
@@ -19,11 +23,18 @@ export const FeaturesContainer = styled.div`
   } */
 `;
 
-export const FeaturesWrapper = styled.div`
+export const FeaturesWrapper = styled.div<FeaturesWrapperProps>`
   max-width: 1440px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  ${({ language }) =>
+    language === 'esp'
+      ? css`
+          grid-template-columns: 1fr 1fr 1fr;
+        `
+      : css`
+          grid-template-columns: 1fr 1fr;
+        `};
   grid-gap: 64px;
   align-items: center;
   padding: 0 50px;

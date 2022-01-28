@@ -1,6 +1,10 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+interface ContainerProps {
+  language: string;
+}
+
+export const Container = styled.div<ContainerProps>`
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -8,7 +12,14 @@ export const Container = styled.div`
   align-items: center;
   border-radius: 10px;
   width: 380px;
-  height: 600px;
+  ${({ language }) =>
+    language === 'esp'
+      ? css`
+          height: 480px;
+        `
+      : css`
+          height: 600px;
+        `};
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;

@@ -22,7 +22,11 @@ import {
   FeaturesWrapper,
 } from './FeaturesElements';
 
-export function Features() {
+interface Props {
+  language: string;
+}
+
+export function Features({ language }: Props) {
   const [locale, setLocale] = useState<string>('esp');
 
   const { pathname } = useLocation();
@@ -41,7 +45,7 @@ export function Features() {
       <FeaturesHeading>
         {locale === 'esp' ? 'Contenido del curso' : 'Conteúdo do curso'}
       </FeaturesHeading>
-      <FeaturesWrapper>
+      <FeaturesWrapper language={locale}>
         {locale === 'esp' ? (
           <>
             <ClassCard {...cardObjOne} />
