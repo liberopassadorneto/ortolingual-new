@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FeaturesContainer = styled.div`
+export const PricingContainer = styled.div`
   height: auto;
   display: flex;
   text-align: center;
@@ -19,11 +19,11 @@ export const FeaturesContainer = styled.div`
   } */
 `;
 
-export const FeaturesWrapper = styled.div`
+export const PricingWrapper = styled.div`
   max-width: 1440px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 24px;
   align-items: center;
   padding: 0 50px;
@@ -38,7 +38,7 @@ export const FeaturesWrapper = styled.div`
   }
 `;
 
-export const FeaturesCard = styled.div`
+export const PricingCard = styled.div`
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -63,13 +63,13 @@ export const FeaturesCard = styled.div`
   }
 `;
 
-export const FeaturesIcon = styled.img`
+export const PricingIcon = styled.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
 `;
 
-export const FeaturesHeading = styled.h1`
+export const PricingHeading = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 64px;
@@ -81,7 +81,7 @@ export const FeaturesHeading = styled.h1`
   }
 `;
 
-export const FeaturesTitle = styled.h1`
+export const PricingTitle = styled.h1`
   font-size: 2rem;
   color: #000;
   font-weight: 600;
@@ -91,7 +91,7 @@ export const FeaturesTitle = styled.h1`
   }
 `;
 
-export const FeaturesSubtitle = styled.h2`
+export const PricingSubtitle = styled.h2`
   font-size: 1.6rem;
   margin-bottom: 10px;
 
@@ -100,7 +100,7 @@ export const FeaturesSubtitle = styled.h2`
   }
 `;
 
-export const FeaturesSubtitleNew = styled.h2`
+export const PricingSubtitleNew = styled.h2`
   font-size: 1rem;
   color: #01bf71;
   font-weight: 600;
@@ -133,6 +133,72 @@ export const FeaturesList = styled.ul`
 `;
 
 export const FeaturesItem = styled.li`
+  font-size: 1.025rem;
+  text-align: left;
+  margin: 16px 0;
+
+  @media screen and (max-width: 480px) {
+    font-size: 0.8rem;
+  }
+`;
+
+export const Container = styled.div`
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  width: 300px;
+  height: 380px;
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 260px;
+    height: auto;
+  }
+`;
+
+// export const FeaturesIcon = styled.img`
+//   height: 160px;
+//   width: 160px;
+//   margin-bottom: 10px;
+// `;
+
+export const TopLine = styled.h2`
+  font-size: 1rem;
+  color: #01bf71;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 16px;
+
+  @media screen and (max-width: 480px) {
+    font-size: rem;
+  }
+`;
+
+export const Title = styled.h1`
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 0.8rem;
+  }
+`;
+
+export const Topics = styled.ul`
+  list-style-type: none;
+`;
+
+export const Topic = styled.li`
   font-size: 1.025rem;
   text-align: left;
   margin: 16px 0;
