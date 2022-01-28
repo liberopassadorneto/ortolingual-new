@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Icon } from '../Signin/SigninElements';
 import {
@@ -14,8 +15,18 @@ import {
 } from './ThankYouElements';
 
 export function ThankYou() {
+  const [locale, setLocale] = useState<string>('esp');
+
   const { pathname } = useLocation();
-  const cwbPathname = pathname.includes('cwb');
+
+  useEffect(() => {
+    const cwbPathname = pathname.includes('cwb');
+    if (cwbPathname) {
+      setLocale('ptbr');
+    } else {
+      setLocale('esp');
+    }
+  }, []);
 
   return (
     <Container>
@@ -23,28 +34,30 @@ export function ThankYou() {
         <Icon to="/">voltar</Icon>
         <CardWrapper>
           <CardContainer>
-            <CardHeading>{cwbPathname ? 'Obrigado!' : '¡Gracias!'}</CardHeading>
+            <CardHeading>
+              {locale === 'esp' ? '¡Gracias!' : 'Obrigado!'}
+            </CardHeading>
             <CardSubtitle>
-              {cwbPathname
-                ? 'Sua inscrição está confirmada.'
-                : 'Su inscripción en el curso fue un éxito.'}
+              {locale === 'esp'
+                ? 'Su inscripción en el curso fue un éxito'
+                : 'Sua inscrição está confirmada'}
             </CardSubtitle>
             <CardDivider />
             <CardText>
-              {cwbPathname
-                ? 'Clique no botão verde para entrar no grupo exclusivo de WhatsApp.'
-                : 'Haga clic en el botón verde para unirse al grupo de WhatsApp del curso.'}
+              {locale == 'esp'
+                ? 'Haga clic en el botón verde para unirse al grupo de WhatsApp del curso'
+                : 'Clique no botão verde para entrar no grupo exclusivo de WhatsApp'}
             </CardText>
             <LinkBtn
               href={
-                cwbPathname
-                  ? 'https://chat.whatsapp.com/IL0SNOgMgik9cfTWr5EiAk'
-                  : 'https://chat.whatsapp.com/JtxdLmKyGvKGoDwyDiD5U0'
+                locale == 'esp'
+                  ? 'https://chat.whatsapp.com/JtxdLmKyGvKGoDwyDiD5U0'
+                  : 'https://chat.whatsapp.com/IL0SNOgMgik9cfTWr5EiAk'
               }
               target="_blank"
             >
               <CardBtn>
-                {cwbPathname ? 'Entrar' : 'Hablar por WhatsApp'}
+                {locale == 'esp' ? 'Hablar por WhatsApp' : 'Entrar'}
               </CardBtn>
             </LinkBtn>
           </CardContainer>
