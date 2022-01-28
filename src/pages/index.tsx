@@ -9,6 +9,7 @@ import {
   infoObjTwo,
 } from '../components/InfoSection/Data';
 import { Navbar } from '../components/Navbar';
+import { Pricing } from '../components/Pricing';
 import { Sidebar } from '../components/Sidebar';
 import { Testimonials } from '../components/Testimonials';
 
@@ -29,6 +30,7 @@ export function Home() {
       <Testimonials />
       <Features />
       <InfoSection {...infoObjThree} />
+      <Pricing />
       <Footer />
     </>
   );

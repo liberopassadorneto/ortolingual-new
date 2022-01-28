@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { PricingCard } from '../../components/PricingCard';
-import { cardPricingObjOne } from '../PricingCard/data';
+import { cardPricingObjOne, cardPricingObjOnePtBr } from '../PricingCard/data';
 import {
   PricingContainer,
   PricingHeading,
@@ -24,9 +24,15 @@ export function Pricing() {
 
   return (
     <PricingContainer id="pricing">
-      <PricingHeading>Planos e Preços</PricingHeading>
+      <PricingHeading>
+        {locale === 'esp' ? 'Inversión' : 'Planos e Preços'}
+      </PricingHeading>
       <PricingWrapper>
-        <PricingCard {...cardPricingObjOne} />
+        {locale === 'esp' ? (
+          <PricingCard {...cardPricingObjOne} />
+        ) : (
+          <PricingCard {...cardPricingObjOnePtBr} />
+        )}
       </PricingWrapper>
     </PricingContainer>
   );

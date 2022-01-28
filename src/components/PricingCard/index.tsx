@@ -16,18 +16,24 @@ type TopicType = {
 interface PricingCardProps {
   topLine: string;
   title: string;
+  subtitle: string;
   topics: TopicType[];
 }
 
-export function PricingCard({ topLine, title, topics }: PricingCardProps) {
+export function PricingCard({
+  topLine,
+  title,
+  subtitle,
+  topics,
+}: PricingCardProps) {
   return (
     <Container>
       {/* <FeaturesIcon src={icon1} /> */}
-      <TopLine>Curso Presencial - Curitiba</TopLine>
+      <TopLine>{topLine}</TopLine>
       <Title>
-        $40 <span>dólares</span>
+        {title} <span>dólares</span>
       </Title>
-      <Subtitle>valor da inscrição</Subtitle>
+      <Subtitle>{subtitle}</Subtitle>
       <Divider />
       <Topics>
         {topics.map((topic) => {

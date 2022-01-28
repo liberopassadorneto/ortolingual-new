@@ -23,7 +23,7 @@ import {
 } from './FeaturesElements';
 
 interface Props {
-  language: string;
+  language?: string;
 }
 
 export function Features({ language }: Props) {
