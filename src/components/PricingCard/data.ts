@@ -31,7 +31,7 @@ export const cardPricingObjOnePtBr = {
     },
     {
       id: '02',
-      title: '💵 $200 no 1º dia do evento (12/03)',
+      title: '💵 + $200 no 1º dia do evento (12/03)',
     },
     {
       id: '03',
