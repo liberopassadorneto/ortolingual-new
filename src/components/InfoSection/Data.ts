@@ -122,17 +122,17 @@ export const infoObjFive = {
     {
       id: '01',
       content:
-        '📅 Nosso encontro vai acontecer nos dias 12 e 13 de Março de 2022',
+        'Nosso encontro vai acontecer nos dias 12 e 13 de Março de 2022.',
     },
     {
       id: '02',
       content:
-        '🛎️ No hotel Ibis Styles Curitiba Batel, que está localizado na R. Benjamin Lins, 513 - Batel, Curitiba - PR, 80420-100',
+        'No hotel Ibis Styles Curitiba Batel, que está localizado na R. Benjamin Lins, 513 - Batel, Curitiba - PR, 80420-100.',
     },
     {
       id: '03',
       content:
-        '👨‍🏫 Ministrado pelo Prof. Dr. Marcos Prieto -  Especialista e Mestre em Ortodontia e com mais 30 anos de experiência com a Técnica Lingual',
+        'Ministrado pelo Prof. Dr. Marcos Prieto -  Especialista e Mestre em Ortodontia e com mais 30 anos de experiência com a Técnica Lingual.',
     },
   ],
   btnLabel: 'Inscreva-se agora',

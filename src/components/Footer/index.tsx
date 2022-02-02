@@ -58,25 +58,22 @@ export function Footer() {
         </FooterLinksContainer> */}
         <SocialMedia>
           <SocialMediaWrapper>
-            <SocialLogo to='/' onClick={toggleHome}>
+            <SocialLogo to="/" onClick={toggleHome}>
               ortolingualprieto
             </SocialLogo>
-            <WebsiteRights>
-              Empire Orto Center · 86.909.710/0001-54
-              {/* {new Date().getFullYear()} */}
-            </WebsiteRights>
+            <WebsiteRights>{/* {new Date().getFullYear()} */}</WebsiteRights>
             <SocialIcons>
               <SocialIconLink
-                href='https://www.instagram.com/ortolingualprieto/'
-                target='_blank'
-                aria-label='Instagram'
+                href="https://www.instagram.com/ortolingualprieto/"
+                target="_blank"
+                aria-label="Instagram"
               >
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink
-                href='https://www.facebook.com/prietoeprieto.ortodontiainvisivel.3'
-                target='_blank'
-                aria-label='Facebook'
+                href="https://www.facebook.com/prietoeprieto.ortodontiainvisivel.3"
+                target="_blank"
+                aria-label="Facebook"
               >
                 <FaFacebook />
               </SocialIconLink>

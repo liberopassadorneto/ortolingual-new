@@ -24,4 +24,9 @@ export const testimonialsData = [
     title: 'Dr Christian Patron',
     src: 'https://www.youtube.com/embed/utrKIAqdmgQ?rel=0',
   },
+  {
+    id: '06',
+    title: 'Curso presencial en Campo Grande - MS',
+    src: 'https://www.youtube.com/embed/J54_uOD4Qpc?rel=0',
+  },
 ];

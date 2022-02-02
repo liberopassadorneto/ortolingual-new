@@ -1,8 +1,8 @@
 export const navBarDataEsp = [
-  {
-    id: 'about',
-    title: 'Objetivos',
-  },
+  // {
+  //   id: 'about',
+  //   title: 'Objetivos',
+  // },
   {
     id: 'discover',
     title: 'Calendario',
@@ -13,19 +13,23 @@ export const navBarDataEsp = [
   },
   {
     id: 'features',
-    title: 'Contenido del curso',
+    title: 'Contenido',
   },
   {
     id: 'signup',
     title: 'Entre em contacto',
   },
+  {
+    id: 'pricing',
+    title: 'Inversión',
+  },
 ];
 
 export const navBarDataPtBr = [
-  {
-    id: 'about',
-    title: 'Objetivos',
-  },
+  // {
+  //   id: 'about',
+  //   title: 'Objetivos',
+  // },
   {
     id: 'discover',
     title: 'Calendário',
@@ -36,10 +40,14 @@ export const navBarDataPtBr = [
   },
   {
     id: 'features',
-    title: 'Conteúdo do curso',
+    title: 'Conteúdo',
   },
   {
     id: 'signup',
     title: 'Entre em contato',
+  },
+  {
+    id: 'pricing',
+    title: 'Planos e Preços',
   },
 ];
