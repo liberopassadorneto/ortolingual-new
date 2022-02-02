@@ -5,14 +5,13 @@ import { Home } from './pages';
 import { Cwb } from './pages/cwb';
 import { ThankYouPage } from './pages/thankyou';
 
-const options = {
-  autoConfig: true,
-  debug: false,
-};
-
 export function App() {
-  ReactPixel.init('935971993835238', undefined, options);
+  ReactPixel.init('935971993835238', undefined, {
+    debug: true,
+    autoConfig: false,
+  });
   ReactPixel.pageView();
+  ReactPixel.fbq('track', 'PageView');
   return (
     <Router>
       {/* <Navbar /> */}
