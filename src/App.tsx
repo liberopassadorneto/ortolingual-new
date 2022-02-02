@@ -11,7 +11,7 @@ export function App() {
     autoConfig: false,
   });
   ReactPixel.pageView();
-  ReactPixel.fbq('track', 'PageView');
+
   return (
     <Router>
       {/* <Navbar /> */}
