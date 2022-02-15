@@ -31,7 +31,7 @@ export function PricingCard({
       {/* <FeaturesIcon src={icon1} /> */}
       <TopLine>{topLine}</TopLine>
       <Title>
-        {title} <span>dólares</span>
+        {title}
       </Title>
       <Subtitle>{subtitle}</Subtitle>
       <Divider />
